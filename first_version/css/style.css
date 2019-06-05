@@ -10,6 +10,6 @@
 
 .slider {
     height: 800px;
-    background-image: url(/img/slider-img.jpg)
+    background-image: url(../img/slider-img.jpg);
     
 }
