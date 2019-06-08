@@ -169,7 +169,7 @@ body {
     margin-left: auto;
 }
 
-.featured__menu_link_active {
+.featured__menu_link_new:hover {
     flex-basis: 158px;
     color: #212121;
     font-family: Montserrat;
@@ -779,4 +779,11 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.6px;
     margin-right: 50px;
+}
+
+.exploreall:hover,
+.exploreall:active,
+.exploreall {
+    text-decoration: none;
+    color: #212121;
 }
