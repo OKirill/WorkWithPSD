@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .container {
@@ -151,7 +152,7 @@ body {
     justify-content: flex-start;
     flex-direction: row;
     list-style: none;
-    padding-top: 120px;
+    margin-top: 120px;
     margin-right: 107px;
     margin-left: 118px;
 }
@@ -169,7 +170,7 @@ body {
     margin-left: auto;
 }
 
-.featured__menu_link_active {
+.featured__menu_link_new:hover {
     flex-basis: 158px;
     color: #212121;
     font-family: Montserrat;
@@ -189,14 +190,6 @@ body {
     border-bottom: 1px solid #6c6c6c;
 }
 
-.featured__goods {
-    display: flex;
-    padding-top: 72px;
-    justify-content: space-between;
-    margin-right: 98px;
-    margin-left: 98px;
-
-}
 
 .featured__goods_img {
     margin-right: 15px;
@@ -268,9 +261,8 @@ body {
 
 .trending__images_item {
 
-    margin-right: 15px;
-    margin-left: 15px;
-    padding-bottom: 30px;
+    margin: 1px 15px;
+    margin-bottom: 30px;
 }
 
 .deal {
@@ -353,32 +345,39 @@ body {
 
 .galerie {
     height: 810px;
-
     display: flex;
+    justify-content: center;
+    padding-right: 400px;
 
 
 }
 
 .galerie__big {
     width: 570px;
-    height: 570px;
+    height: 570px;  
     margin-top: 120px;
     background-image: url(../img/product-1-lg.jpg);
 
 }
 
 .galerie__small {
-    width: 570px;
-    height: 570px;
-    background-image: url(../img/4-layers.jpg);
-    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin-top: 120px;
-
+    
 
 
 }
 
+.galerie__small_item {
+    margin-left: 30px;
+    
+}
 
+.galerie__small_img {
+    margin-bottom: 25px;
+}
 
 .galerie__text_above {
     padding-top: 186px;
@@ -492,15 +491,6 @@ body {
     margin-left: 50px;
 }
 
-.featured__goods_back {
-    width: 270px;
-    height: 270px;
-    background-image: url(../img/back.svg);
-
-
-
-}
-
 .arrow__button {
     width: 48px;
     height: 48px;
@@ -512,7 +502,9 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 111px;
-    margin-top: 62px;
+    margin-top: 0px;
+    margin-right: 110px;
+    margin-bottom: 20px;
 }
 
 .arrow_button_img {
@@ -739,6 +731,8 @@ body {
 
 .email_img {
     margin-top: 26px;
+    width: 340px;
+    height: 48px;
 }
 
 .footer-first {
@@ -762,13 +756,10 @@ body {
     text-transform: uppercase;
 
     letter-spacing: 0.6px;
-    margin-left: 20px;
+    
 }
 
-.footer__logo {
-    margin-left: 40px;
-    margin-right: 74px;
-}
+
 
 .terms {
     color: #6c6c6c;
@@ -780,3 +771,131 @@ body {
     letter-spacing: 0.6px;
     margin-right: 50px;
 }
+
+.exploreall:hover,
+.exploreall:active,
+.exploreall {
+    text-decoration: none;
+    color: #212121;
+}
+
+.featured__item {
+    width: 270px;
+    height: 270px;
+}
+
+.featured_h3 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.featured__p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.featured__item_content {
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    height: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured__goods {
+    margin-bottom: 120px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.featured__item:hover .featured__item_content {
+    display: flex;
+}
+
+.trending__images_item img {
+    margin: 2px;
+}
+
+.trending__images_item img:hover {
+    border: 2px solid #333;
+    margin: 0;
+}
+
+.button:hover {
+    background-color: #f9f9f9;
+}
+
+.button:active {
+    box-shadow: 0 0 5px 1px rgba(33, 33, 33, 0.35);
+    position: relative;
+    top: 2px;
+}
+
+.exclusive__button:hover {
+    background-color: #f9f9f9;
+}
+
+.exclusive__button:active {
+    box-shadow: 0 0 5px 1px rgba(33, 33, 33, 0.35);
+    position: relative;
+    top: 2px;
+}
+
+input[placeholder] {
+    padding: 0 15px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+
+
+input.icon {
+    background: url(../img/.jpg) no-repeat 330px 15px;
+    
+    
+    
+    
+
+}
+
+.img__logo {
+    width: 28px;
+    height: 28px;
+    
+}
+
+.social__link {
+    margin-right: 5px;
+}
+
+.social__links {
+    padding-right: 30px;
+}
+
+.galerie__small_img {
+    border: 2px solid transparent;
+}
+
+.galerie__small_img:hover {
+    border: 2px solid #333;
+    
+    
+    
+  
+}
+
