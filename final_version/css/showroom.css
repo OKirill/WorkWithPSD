@@ -517,3 +517,22 @@ input.icon {
     position: relative;
     top: 2px;
 }
+
+.menu__link_a {
+    text-decoration: none;
+}
+
+.menu__link_a:link {
+    color: #8c8c8c;
+}
+
+.menu__link_a:visited {
+    color: #8c8c8c;
+}
+
+.menu__link_a:hover {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    
+}
