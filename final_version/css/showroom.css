@@ -508,3 +508,12 @@ input.icon {
 .galery__images_item {
     margin-right: 30px;
 }
+.button:hover {
+    background-color: #f55f45;;
+}
+
+.button:active {
+    box-shadow: 0 0 5px 1px rgba(33, 33, 33, 0.35);
+    position: relative;
+    top: 2px;
+}
