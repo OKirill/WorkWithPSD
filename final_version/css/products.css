@@ -474,3 +474,11 @@ input.icon {
     letter-spacing: 1.4px;
     
 }
+
+.galery__images_item {
+    border: 2px solid transparent;
+}
+
+.galery__images_item:hover {
+    border: 2px solid black;
+}

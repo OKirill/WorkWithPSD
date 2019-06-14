@@ -431,3 +431,7 @@ input.icon {
     
 }
 
+.maps__item:hover {
+    background-color: #dbd2d2;;
+}
+

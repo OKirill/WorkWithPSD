@@ -416,7 +416,7 @@ input.icon {
 }
 
 .button {
-    width: 510px;
+    width: 450px;
     height: 71px;
     font-size: 18px;
     font-weight: 700;
@@ -535,4 +535,20 @@ input.icon {
     font-weight: 700;
     letter-spacing: 1.4px;
     
+}
+
+.big__img {
+    border: 2px solid transparent;
+}
+
+.big__img:hover {
+    border: 2px solid black;
+}
+
+.small__images_item {
+    border: 2px solid transparent;
+}
+
+.small__images_item:hover {
+    border: 2px solid black;
 }

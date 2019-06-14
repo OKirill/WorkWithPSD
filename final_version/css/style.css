@@ -111,6 +111,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-top: 40px;
+    width:300px;
 }
 
 .menu__link:hover {
@@ -872,6 +873,7 @@ input.icon {
     
 
 }
+
 
 .img__logo {
     width: 28px;
