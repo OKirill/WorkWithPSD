@@ -507,7 +507,13 @@ input.icon {
 
 .galery__images_item {
     margin-right: 30px;
+    border: 2px solid transparent;
 }
+
+.galery__images_item:hover {
+    border: 2px solid black;
+}
+
 .button:hover {
     background-color: #f55f45;;
 }
